@@ -120,7 +120,7 @@ h1 {
 }
 
 .fprice {
-  display: flex;
+  /* display: flex; */
   width: 100%;
   justify-content: left;
   align-items: center;
@@ -144,7 +144,7 @@ h1 {
 
 .dprice {
   color: #9ea1a6;
-  margin-top: -15px;
+  /* margin-top: -15px; */
   font-weight: bolder;
 }
 
@@ -219,16 +219,15 @@ span {
   }
   header
    {
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
    }
 
   nav {
-    width: 760px;
+    width: 689px;
     padding: 0px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 0px;
   }
 
   hr {
@@ -297,9 +296,9 @@ span {
 
   .fprice {
     padding-top: 30px;
-    display: inline-flex;
     width: 689px;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    display: flex;
   }
 
   .price {
@@ -326,7 +325,9 @@ span {
   .addcart {
     width: 689px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
+    padding: 15px;
+    height: 100px;
   }
 
   #left {
